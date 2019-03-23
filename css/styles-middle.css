@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px){
+	.navbar-nav > li > a {
+		/* (80px - line-height of 27px) / 2 = 26.5px */
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 27px;
+	}
+	.toshow h1 {
+		text-align: center;
+	}
+
+	.toshow {
+		width: auto;
+		max-width: 80vw;
+		min-width: 0;
+		padding-left: 15vw;
+		padding-top: 7vh;
+	}
+
+	.content_image_right {
+		height: 600px;
+		background-image: url("../images/background_1_small.jpg");
+		background-position: top; 
+	}
+}
