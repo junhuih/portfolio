@@ -3,10 +3,10 @@
 
 /* Contents */
 
-	/* General Change:				 line a; */
-	/* Header:								 line b; */
+	/* General Change:						line a; */
+	/* Header:								line b; */
 	/* Content:								line c; */
-	/* Footer:								 line d; */
+	/* Footer:								line d; */
 
 /* End of Contents */
 
@@ -148,6 +148,8 @@ body {
 
 .row-wrapper {
 	/* background-color: #f7f7f7; */
+
+	max-width: 1024px;
 }
 
 .row h1 {
