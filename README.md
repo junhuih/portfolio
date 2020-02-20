@@ -1,7 +1,4 @@
 # portfolio
-My own personal web
-It is fun since you can purchase a website and ask github to host it for you.<br>
-www.junhuihe.com<br><br>
-
-Yea it is pretty basic, and yes it is.<br>
-All images are either taken by me, or "free" on the internet. I am not a copyright theif. ;)
+My online portfolio showcasing myself.<br>
+Currently this portfolio does not have a databased, which means all data are in plain css. This is a temporary solution for now as a time constraint and a resource constraint. But a database would be preferred in the future when there are more information.<br><br>
+https://www.junhuihe.com
