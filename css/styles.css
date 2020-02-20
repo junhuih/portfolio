@@ -132,7 +132,7 @@ body {
 }
 
 .row {
-	max-width: 1024px;
+	max-width: 1200px;
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -149,7 +149,7 @@ body {
 .row-wrapper {
 	/* background-color: #f7f7f7; */
 
-	max-width: 1024px;
+	max-width: 1200px;
 }
 
 .row h1 {

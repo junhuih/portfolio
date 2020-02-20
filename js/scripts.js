@@ -19,7 +19,6 @@ $(document).ready(function () {
 
 function myMove() {
   var elems = document.querySelectorAll(".gallery");
-  
   var width = elems[0].offsetWidth
   var mov = 0;
   setInterval(frame, 2);
