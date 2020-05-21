@@ -16,10 +16,4 @@
 		padding-left: 15vw;
 		padding-top: 7vh;
 	}
-
-	.content_image_right {
-		height: 600px;
-		background-image: url("../images/background_1_small.jpg");
-		background-position: top; 
-	}
 }
