@@ -1,20 +1,18 @@
-
 <!DOCTYPE html>
 
 <html lang="zh-cmn-Hans">
 
 	<head>
 		<!-- Descriptions -->
-		<title>Mark He </title>
+		<title>Qihengheng Li</title>
 		<meta name = "author" content = "Junhui He"/>
-		<meta name = "keywords" content = "Junhui He, Mark He, portfolio, Carnegie Mellon University, Information System"/>
+		<meta name = "keywords" content = "Junhui He, Mark He, pro-wrestling"/>
 		<meta name = "viewport" content = "initial-scale=1">
-		<meta name = "descriptions" content = "This is the my E-portfolio."/>
+		<meta name = "descriptions" content = "Qihengheng Li's pro wrestling analysis."/>
 
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="css/styles-middle.css" />
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -27,24 +25,69 @@
 
 
 	<body>
-		<h1 style = "text-align: center">气哼哼李的Pro Wrestling测评</h1>
-	</body>
+		<!-- Nav bar -->
+        <div id = "nav">
+            <a href = "index.html"><img id = "logo" src = 'images/logo.png' alt = "气哼哼李的Logo" style = "height: 40px;"></a>
+            <div class = "grid">
+                <div class = "box A">
+                    <form id = "search">
+                        <input id = "search_bar" type="text" placeholder="超强力搜索！" name="search">
+                        <button id = "search_button"><img src = 'images/search.svg' alt = "search"></button>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    
+        <!-- Nav bar categories, ignored currently -->
+        <!--
+            <div id = "category">
+            <div class = "grid">
+                <div class = "box A"><a href="">Brand</a></div>
+                <div class = "box B"><a href="browsing.html">Category</a></div>
+                <div class = "box C"><a href="">Featured</a></div>
+                <div class = "box D"><a href="">About</a></div>
+                <div class = "box E"><a href="">Help</a></div>
+            </div>
+        </div>
+        -->
+    
+        <div id = "index_info">
+            <h1>气哼哼李的Pro Wrestling评测</h1>
+            <p><br>全球最权威最详细的Pro Wrestling测评师精心大作！</p>
+        </div>
+    
+        <!-- Contents below, wrapped in the div -->
+        <div class = "content_wrapper">
+            <h3>气哼哼李的精挑细选</h3>
+            <!-- Each row of the browsing content, with 4 items per row -->
+            <div class = "row_wrapper">
+                <div class = "browsing">
+                    <a href = "match/100.html">
+                        <img src = "resources/100/thumbnail.jpg" alt = "#100">
+                        <h4>潮崎豪 vs. 中嶋勝彦 2020.11.22 NOAH</h4>
+                    </a>
+                </div>
+                <div class = "browsing">
+                    <img src = "resources/100/thumbnail.jpg" alt = "#100">
+                    <h4>潮崎豪 vs. ake 2020.11.22 NOAH</h4>
+                </div>
+                <div class = "browsing">
+                    <img src = "resources/100/thumbnail.jpg" alt = "#100">
+                    <h4>潮崎豪 vs. zengtao 2020.11.22 NOAH</h4>
+                </div>
+                <div class = "browsing">
+                    <img src = "resources/100/thumbnail.jpg" alt = "#100">
+                    <h4>潮崎豪 vs. qihengheng 2020.11.22 NOAH</h4>
+                </div>
+            </div>
+        </div>
+    </body>
 
 
 	<footer class = "col-md-12 mx-auto" id = "contact">
 		<div id = "footer-wrapper" style = "text-align: center">
-			<p>Contact me: <a href="mailto:junhuih@andrew.cmu.edu">Junhui He</a></p>
-			<p>&copy; 2020. Junhui He.</p>
-			<a href="https://github.com/junhuih">
-				<img src = "resources/images/contact/github.png" alt = "github" height = "50px">
-			</a>
-			<a href="https://www.facebook.com/mark.he.982">
-				<img src = "resources/images/contact/facebook.png" alt = "facebook" height = "50px">
-			</a>
-			<a href="resources/images/contact/wechat_info.png">
-				<img src = "resources/images/contact/wechat.png" alt = "wechat" height = "50px">
-			</a>
-			<p style = "font-size:10px">Last Edited in 2020/05/20</p>
+			<p>&copy; 2021. Junhui He.</p>
+			<p style = "font-size:10px">Last Edited in 2021/05/30</p>
 		</div>
 	</footer>
 
