@@ -8,6 +8,15 @@
     width: 100%;
 }
 
+.gif_content {
+    text-align: center;
+}
+
 .gif_image {
-    width: 100%;
+    width: 80%;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
 }
