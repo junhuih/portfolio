@@ -156,7 +156,7 @@ body {
     margin: 0;
     padding-top: 180px;
     padding-left: calc(15vw);
-    width: 90%;
+    width: calc(80vw);
 }
 
 #index_info p {
@@ -167,7 +167,7 @@ body {
     text-align: justify;
     margin-top: -20px;
     padding-left: calc(15vw);
-    width: 90%;
+    width: calc(80vw);
 }
 
 .browsing img {
@@ -284,7 +284,6 @@ body {
 
 
 @media screen and (max-width: 767px){
-
     #nav .nav_content {
         grid-template-columns: 100% 0% 0%;
         width: calc(100vw - 200px);
