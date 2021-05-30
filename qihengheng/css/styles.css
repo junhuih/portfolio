@@ -13,8 +13,6 @@ body {
 
 .row_wrapper{
     padding-top: 20px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
 }
 
@@ -47,12 +45,12 @@ body {
 
 #nav #logo{
     float:left;
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
-#nav .grid {
+#nav .nav_content {
     float: right;
     height: 50px;
     display: grid;
@@ -141,11 +139,13 @@ body {
 
 /* ============== Index page ==============  */
 #index_info {
-    width: 100%;
-    height: 450px;
-    background-size: cover;
-    background-position: 0 -20vh;
+	width: 100vw;
+	height: calc(600px);
+	max-width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-image: url("../images/home.jpg");
+	background-position: top right; 
 }
 
 #index_info h1 {
@@ -155,7 +155,8 @@ body {
     text-shadow: 4px 4px #777777;
     margin: 0;
     padding-top: 180px;
-    padding-left: 200px;
+    padding-left: calc(15vw);
+    width: 90%;
 }
 
 #index_info p {
@@ -165,7 +166,8 @@ body {
 	font-weight: 400;
     text-align: justify;
     margin-top: -20px;
-    padding-left: 220px;
+    padding-left: calc(15vw);
+    width: 90%;
 }
 
 .browsing img {
@@ -256,16 +258,6 @@ body {
     cursor: pointer;
 }
 
-.purchase_item p {
-    padding-top: 350px;
-    font-size: 20px;
-}
-
-.purchase_item #add_button {
-    bottom: 0;
-    width: 200px;
-}
-
 .content_wrapper #reviews {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -288,4 +280,16 @@ body {
     line-height: 1.5;
     margin-top: 5px;
     margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 767px){
+
+    #nav .nav_content {
+        grid-template-columns: 100% 0% 0%;
+        width: calc(100vw - 200px);
+    }
+	#search input[type=text] {
+        width: auto;
+    }
 }
