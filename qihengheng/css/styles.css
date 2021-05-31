@@ -285,9 +285,18 @@ body {
     text-align: right;
 }
 
+.comment_button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
 .comment_button img {
-    height: 80px;
-    width: 80px;
+    height: 35px;
+    width: 35px;
     object-fit: cover;
     top: 0;
 }
