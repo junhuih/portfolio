@@ -299,8 +299,8 @@ body {
 }
 
 .comment_button img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     object-fit: cover;
     top: 0;
 }
