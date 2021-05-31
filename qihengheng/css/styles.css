@@ -80,7 +80,6 @@ body {
     padding:0;
     font-size: 18px;
     border-radius: 5px 0 0 5px;
-    padding-left: 15px;
 }
 
 #search button {
@@ -282,6 +281,19 @@ body {
     margin-bottom: 2px;
 }
 
+.comment_row {
+    text-align: right;
+}
+
+.comment_button img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    top: 0;
+}
+
+
+
 
 @media screen and (max-width: 767px){
     #nav .nav_content {
@@ -290,5 +302,17 @@ body {
     }
 	#search input[type=text] {
         width: auto;
+    }
+}
+
+
+@media screen and (max-width: 444px){
+    #nav .nav_content {
+        grid-template-columns: 100% 0% 0%;
+        width: calc(100vw - 200px);
+    }
+
+	#search input[type=text] {
+        width: calc(100vw - 250px);
     }
 }
